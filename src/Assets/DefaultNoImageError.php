@@ -12,35 +12,40 @@ namespace nguyenanhung\WebBuilderSDKAssets\Assets;
 
 class DefaultNoImageError
 {
-    const IMG_PATH = __DIR__ . '/../../assets/image/system/error/';
+    public static function imagePath()
+    {
+        $path = __DIR__ . '/../../assets/image/system/error/';
+
+        return realpath($path) . DIRECTORY_SEPARATOR;
+    }
 
     public static function errorImage01()
     {
-        return self::IMG_PATH . '404-1.jpg';
+        return self::imagePath() . '404-1.jpg';
     }
 
     public static function errorImage02()
     {
-        return self::IMG_PATH . '404-2.png';
+        return self::imagePath() . '404-2.png';
     }
 
     public static function errorImage03()
     {
-        return self::IMG_PATH . '404-3.png';
+        return self::imagePath() . '404-3.png';
     }
 
     public static function errorImage04()
     {
-        return self::IMG_PATH . '404-4.gif';
+        return self::imagePath() . '404-4.gif';
     }
 
     public static function errorImage05()
     {
-        return self::IMG_PATH . '404-5.jpg';
+        return self::imagePath() . '404-5.jpg';
     }
 
     public static function errorImage06()
     {
-        return self::IMG_PATH . '404-6.jpg';
+        return self::imagePath() . '404-6.jpg';
     }
 }
