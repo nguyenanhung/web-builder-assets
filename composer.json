@@ -1,0 +1,35 @@
+{
+    "type": "library",
+    "name": "nguyenanhung/web-builder-sdk-assets",
+    "description": "Web Builder SDK Assets",
+    "keywords": [
+        "web builder",
+        "web sdk",
+        "web assets",
+        "helper",
+        "library",
+        "php"
+    ],
+    "homepage": "https://github.com/nguyenanhung/web-builder-sdk-assets",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\WebBuilderSDKAssets\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}

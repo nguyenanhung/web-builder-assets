@@ -1,0 +1,163 @@
+#showLich .slide {
+    position: absolute;
+    display: none;
+    text-align: center;
+    outline: 0;
+}
+
+.khung-lich {
+    border: 1px solid #000000;
+    float: left;
+    width: 100%;
+}
+
+.td_lich {
+    background: #C50000;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+.td_lich_left {
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+.td_lich_center {
+    text-align: center;
+    width: 100%;
+}
+
+.td_lich_right {
+    float: right;
+    text-align: center;
+    width: 20%;
+}
+
+.lich-conten {
+    background: url(calendar/hoatiet-lich.png);
+    float: left;
+    width: 100%;
+}
+
+.lich-conten-center {
+    float: left;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+    width: 100%;
+}
+
+.lich-conten-center > span {
+    font-size: 140px;
+    color: #C50000;
+}
+
+.l-thang strong {
+    color: #C50000;
+    font-size: 14px;
+}
+
+.danh-ngon, .lich-tom-tat {
+    width: 100%;
+    float: left;
+}
+
+.danh-ngon > p {
+    line-height: 18px;
+    padding: 0 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.lich-tom-tat {
+    padding-bottom: 8px !important;
+    padding-top: 8px;
+    border-top: solid 10px #58585A;
+}
+
+.con-giap-12, .con-giap-12 > p, .fooder_lich, .gio-hoang-hac-dao, .l-am, .l-thang {
+    width: 100%;
+    float: left;
+}
+
+.licht-tam-tat-col1, .licht-tam-tat-col_detail {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.con-giap-12, .con-giap-12 > p, .fooder_lich, .gio-hoang-hac-dao, .l-am, .l-thang {
+    width: 100%;
+    float: left;
+}
+
+.licht-tam-tat-col1 > p, .licht-tam-tat-col_detail > p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.con-giap-12 {
+    background: url(calendar/ti.png) 0 15px no-repeat;
+    height: 120px;
+}
+
+.l-thang {
+    font-size: 11px;
+}
+
+.con-giap-12, .con-giap-12 > p, .fooder_lich, .gio-hoang-hac-dao, .l-am, .l-thang {
+    width: 100%;
+    float: left;
+}
+
+.l-am {
+    font-size: 80px;
+    height: 86px;
+    position: relative;
+}
+
+.l-am span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#showLich button {
+    margin: 0;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#showLich button.next {
+    left: auto;
+    right: 0;
+}
+
+#showLich button.next b {
+    background-position: 0 0;
+    left: 10px;
+}
+
+#showLich img {
+    max-width: 100% !important;
+    width: auto;
+    height: auto;
+}
+
+.gio-hoang-hac-dao > p {
+    margin-bottom: 0;
+}
+
+.gio-hoang-hac-dao > p strong {
+    font-size: 12px !important;
+}
