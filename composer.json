@@ -1,6 +1,6 @@
 {
     "type": "library",
-    "name": "nguyenanhung/web-builder-sdk-assets",
+    "name": "nguyenanhung/web-builder-assets",
     "description": "Web Builder SDK Assets",
     "keywords": [
         "web builder",
@@ -10,7 +10,7 @@
         "library",
         "php"
     ],
-    "homepage": "https://github.com/nguyenanhung/web-builder-sdk-assets",
+    "homepage": "https://github.com/nguyenanhung/web-builder-assets",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
